@@ -1,0 +1,20 @@
+name: UnstableSharksPvP
+version: '1.1.0'
+main: com.unstablesharks.pvp.UnstableSharksPvP
+api-version: '1.21.11'
+author: UnstableSharks
+description: PvP statistics, streaks, and optional mob protection. Works alongside PlayerKits2 and CombatLogX.
+commands:
+  pvpstats:
+    description: Show your PvP statistics
+    usage: /pvpstats
+    permission: unstablesharks.pvpstats
+  uspvp:
+    description: Reload UnstableSharksPvP configuration
+    usage: /uspvp reload
+    permission: unstablesharks.admin
+permissions:
+  unstablesharks.pvpstats:
+    default: true
+  unstablesharks.admin:
+    default: op

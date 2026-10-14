@@ -1,0 +1,17 @@
+# Only these world names are affected; [] means all worlds.
+pvp-worlds:
+  - world
+# Disable monster damage (including monster-fired projectiles) in the selected worlds.
+prevent-mob-damage-to-players: true
+# Blocks naturally spawned monsters, not spawners or custom plugin spawns.
+prevent-natural-monster-spawning: true
+killstreak-announcements: [5, 10, 20, 30, 50]
+killstreak-message: '&8[&c&lUnstableSharks&8] &f%player% &7reached &c%streak% &7kills in a row!'
+stats-format:
+  - '&8&m---------------------------'
+  - '&c&lUnstableSharks &8| &fPvP Stats'
+  - '&7Kills: &a%kills%'
+  - '&7Deaths: &c%deaths%'
+  - '&7KDR: &e%kdr%'
+  - '&7Current Streak: &6%streak%'
+  - '&8&m---------------------------'
